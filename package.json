@@ -30,7 +30,7 @@
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.1",
     "clean-webpack-plugin": "^0.1.17",
-    "merge-jsons-webpack-plugin": "^1.0.12",
+    "generate-json-webpack-plugin": "^0.2.2",
     "uglify-js-plugin": "0.0.6",
     "webpack": "^3.10.0"
   }

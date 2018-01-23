@@ -1,6 +1,6 @@
-const path = require('path')
 const Cleaner = require('clean-webpack-plugin')
-const Json = require('merge-jsons-webpack-plugin')
+const Json = require('generate-json-webpack-plugin')
+const path = require('path')
 const Uglifyer = require('uglify-js-plugin')
 
 module.exports = {
@@ -20,12 +20,7 @@ module.exports = {
   },
   plugins: [
     new Cleaner(['dist']),
-    new Json({
-      files: ['./src/app.json'],
-      output: {
-        fileName: 'game.json'
-      }
-    }),
+    new Json('game.json', {}),
     new Uglifyer()
   ]
 }
