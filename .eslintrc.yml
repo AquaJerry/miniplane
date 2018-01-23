@@ -1,0 +1,7 @@
+env:
+  mocha: true
+extends: standard
+globals:
+  wx: true # WeChat
+rules:
+  require-jsdoc: off # Use Docco instead
