@@ -1,4 +1,4 @@
-import model from './model'
-import view from './view'
+// (c) 2018 AquaJerry, Guangzhou University.
+// Miniplane is freely distributed under the terms of ISC license.
 
-view.text(model.greet)
+import './background'
